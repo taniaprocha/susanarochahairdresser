@@ -1,11 +1,12 @@
-@import "../../styles/all.css";
+@import "../styles/all.css";
 
 .header{
   width: 100%;
-  height: 80px;
+  height: 70px;
   background-color: black;
   position: fixed;
   z-index: 10;
+  top: 0;
 }
 
 .container{
@@ -31,9 +32,15 @@
 .link{
   color: white;
   text-decoration: none;
+  font-size: 14px;
   font-family: 'Montserrat';
+  padding-right: 20px;
 }
 
-.link:not(:first-child){
-    padding-left: 20px;
+.link:last-child{
+  padding-right: 0;
+}
+
+.link.active{
+  text-decoration: underline;
 }
