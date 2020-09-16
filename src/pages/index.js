@@ -1,12 +1,18 @@
-import React, { Component } from "react";
-import { Link, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
-import Header from "../components/Header";
+import React from "react"
+import {
+  Link,
+  Element,
+  Events,
+  animateScroll as scroll,
+  scrollSpy,
+  scroller,
+} from "react-scroll"
+import Header from "../components/Header"
 
-import './index.css';
+import "./index.css"
 
-class IndexPage extends Component{
-  render(){
-    return (
+const IndexPage = () => {
+  return (
     <>
       <Header></Header>
       <main>
@@ -19,6 +25,7 @@ class IndexPage extends Component{
           </Element>
           <Element name="where" className="section">
             Onde estamos
+            <div>Rua Artur de Castro 98</div>
           </Element>
         </div>
       </main>
@@ -26,8 +33,8 @@ class IndexPage extends Component{
         © {new Date().getFullYear()}, Built with
         <a href="https://www.gatsbyjs.org">Gatsby</a>
       </footer>
-    </>);
-  }
+    </>
+  )
 }
 
-export default IndexPage;
+export default IndexPage
