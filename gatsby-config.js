@@ -1,3 +1,5 @@
+const path = require("path")
+
 module.exports = {
   siteMetadata: {
     title: `Susana Rocha Cabeleireiros`,
@@ -31,6 +33,12 @@ module.exports = {
       resolve: `gatsby-plugin-postcss`,
       options: {
         postCssPlugins: [require(`postcss-preset-env`)({ stage: 0 })],
+      },
+    },
+    {
+      resolve: "gatsby-plugin-root-import",
+      options: {
+        root: path.join(__dirname, "src"),
       },
     },
   ],

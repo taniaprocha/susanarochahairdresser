@@ -1,13 +1,7 @@
 import React from "react"
-import {
-  Link,
-  Element,
-  Events,
-  animateScroll as scroll,
-  scrollSpy,
-  scroller,
-} from "react-scroll"
+import { Element } from "react-scroll"
 import Header from "../components/Header"
+import ImagesCarousel from "../components/ImagesCarousel"
 
 import "./index.css"
 
@@ -17,8 +11,8 @@ const IndexPage = () => {
       <Header></Header>
       <main>
         <div className="main">
-          <Element name="photos" className="section">
-            Fotos
+          <Element name="photos" className="section-photos">
+            <ImagesCarousel />
           </Element>
           <Element name="services" className="section">
             Serviços

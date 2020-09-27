@@ -1,7 +1,16 @@
-/**
- * Implement Gatsby's Browser APIs in this file.
- *
- * See: https://www.gatsbyjs.org/docs/browser-apis/
- */
+// eslint-disable-next-line import/prefer-default-export
+export const onClientEntry = async () => {
+  if (typeof Map === "undefined") {
+    await import("core-js/es6/map")
+  }
 
-// You can delete this file if you're not using it
+  if (typeof Set === "undefined") {
+    await import("core-js/es6/set")
+  }
+
+  if (typeof window.requestAnimationFrame === "undefined") {
+    import("raf/polyfill")
+  }
+
+  await import("babel-polyfill")
+}
