@@ -1,0 +1,58 @@
+@import "../../styles/all.css";
+
+.footer {
+  display: flex;
+  align-items: center;
+  padding: 24px 0;
+  background-color: black;
+
+  justify-content: center;
+
+  font-family: Montserrat;
+  font-size: 13px;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-column {
+  margin-left: 150px;
+}
+
+.footer-column:first-child {
+  margin-left: 0;
+}
+
+.footer-title {
+  margin-top: 40px;
+  margin-bottom: 8px;
+  font-weight: 600;
+
+  color: white;
+}
+
+.footer-title:first-child {
+  margin-top: 0;
+}
+
+.footer-street {
+  color: white;
+}
+
+.footer-code {
+  color: white;
+}
+
+.footer-phone {
+  color: white;
+}
+
+.footer-facebook {
+  margin-top: 10px;
+}
+
+.facebook-img {
+  height: 18px;
+}

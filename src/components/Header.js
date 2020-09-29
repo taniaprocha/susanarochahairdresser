@@ -36,17 +36,6 @@ const Header = () => {
           >
             Serviços
           </Link>
-          <Link
-            className="link"
-            activeClass="active"
-            to="where"
-            spy={true}
-            smooth={true}
-            offset={-70}
-            duration={100}
-          >
-            Onde estamos
-          </Link>
         </div>
       </div>
     </header>
