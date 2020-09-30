@@ -5,30 +5,33 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
+
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  background-color: black;
 }
 
 .main {
   max-width: 960px;
   margin: 0 auto;
-  padding-top: 70px;
+  margin-top: 70px;
 }
 
-.section-photos {
+.main.container {
+  padding-top: 100px;
 }
 
-.section-where {
-  padding: 84px 0;
+.section-services {
+  width: 100%;
+  height: 300px;
   background-color: #bf946f;
 }
 
-.section {
+.section-photos {
   width: 100%;
-  height: 300px;
-}
-
-.section:nth-child(2) {
+  height: 600px;
+  background-color: #bf946f;
 }

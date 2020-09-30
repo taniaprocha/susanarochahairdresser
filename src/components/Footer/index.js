@@ -21,10 +21,15 @@ const Footer = () => {
           <div className="footer-title">Segue-nos</div>
           <a
             target="_blank"
+            rel="noreferrer"
             className="footer-facebook"
             href="https://www.facebook.com/susanarochacabeleireiros"
           >
-            <img className="facebook-img" src="/facebook.svg"></img>
+            <img
+              alt="SR logo"
+              className="facebook-img"
+              src="/facebook.svg"
+            ></img>
           </a>
         </div>
       </div>

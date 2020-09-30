@@ -10,12 +10,12 @@ const IndexPage = () => {
   return (
     <>
       <Header></Header>
-      <main>
-        <div className="main">
+      <main className="main">
+        <div className="container">
           <Element name="photos" className="section-photos">
             <ImagesCarousel />
           </Element>
-          <Element name="services" className="section">
+          <Element name="services" className="section-services">
             Serviços
           </Element>
         </div>

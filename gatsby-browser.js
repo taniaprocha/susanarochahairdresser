@@ -9,7 +9,7 @@ export const onClientEntry = async () => {
   }
 
   if (typeof window.requestAnimationFrame === "undefined") {
-    import("raf/polyfill")
+    await import("raf/polyfill")
   }
 
   await import("babel-polyfill")

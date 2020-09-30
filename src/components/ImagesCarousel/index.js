@@ -25,11 +25,11 @@ const ImagesCarousel = ({ data }) => {
   return (
     <div className="carousel-containuer">
       <Slider {...settings}>
-        <Img fluid={data.image1.image.fluid} />
-        <Img fluid={data.image2.image.fluid} />
-        <Img fluid={data.image3.image.fluid} />
-        <Img fluid={data.image4.image.fluid} />
-        <Img fluid={data.image5.image.fluid} />
+        <Img alt="one" fluid={data.image1.image.fluid} />
+        <Img alt="two" fluid={data.image2.image.fluid} />
+        <Img alt="three" fluid={data.image3.image.fluid} />
+        <Img alt="four" fluid={data.image4.image.fluid} />
+        <Img alt="five" fluid={data.image5.image.fluid} />
       </Slider>
     </div>
   )
