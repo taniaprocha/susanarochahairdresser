@@ -10,4 +10,4 @@ module.exports = {
     },
     "postcss-responsive-type": {},
   },
-};
+}

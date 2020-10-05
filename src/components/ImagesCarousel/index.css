@@ -1,8 +1,7 @@
 @import "../../styles/all.css";
 @import "../../styles/slick.css";
-@import "../../styles/slick-theme.css";
 
-.carousel-containuer {
+.carousel-container {
   position: relative;
 }
 

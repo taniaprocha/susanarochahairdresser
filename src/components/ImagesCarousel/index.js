@@ -7,10 +7,7 @@ import withQuery from "./withQuery"
 import "./index.css"
 
 const ImagesCarousel = ({ data }) => {
-  console.log(data)
-
   const settings = {
-    className: "carousel",
     dots: true,
     infinite: true,
     autoplay: true,
@@ -20,10 +17,8 @@ const ImagesCarousel = ({ data }) => {
     slidesToScroll: 1,
   }
 
-  // centerMode : true
-
   return (
-    <div className="carousel-containuer">
+    <div styleName="carousel-container">
       <Slider {...settings}>
         <Img alt="one" fluid={data.image1.image.fluid} />
         <Img alt="two" fluid={data.image2.image.fluid} />
