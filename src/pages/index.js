@@ -35,7 +35,14 @@ const IndexPage = ({ data }) => {
     },
   ]
 
-  console.log(data)
+  const renderQuotes = () => {
+    if (!window) {
+      return null
+    }
+    console.log(window)
+
+    return <QuotesCarousel styleName="quotes" quotes={quotes} />
+  }
 
   return (
     <>
@@ -96,9 +103,7 @@ const IndexPage = ({ data }) => {
                 A opinião dos nossos clientes
               </Typography>
             </div>
-            <div styleName="content">
-              <QuotesCarousel styleName="quotes" quotes={quotes} />
-            </div>
+            <div styleName="content">{renderQuotes()}</div>
           </Element>
         </div>
       </main>

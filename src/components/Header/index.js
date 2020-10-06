@@ -24,7 +24,7 @@ const Header = () => {
     })
   }
 
-  console.log(active)
+  // console.log(active)
 
   return (
     <header styleName="root">
