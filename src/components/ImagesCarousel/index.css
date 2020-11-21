@@ -9,7 +9,7 @@
   overflow: hidden;
 }
 
-:global{
+.carousel-container :global{
   .slick-list{
     height: 550px !important;
   }

@@ -12418,11 +12418,6 @@ react-lifecycles-compat@^3.0.4:
   resolved "https://registry.yarnpkg.com/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz#4f1a273afdfc8f3488a8c516bfda78f872352362"
   integrity sha512-fBASbA6LnOU9dOU2eW7aQ8xmYBSXUIWr+UmF9b1efZBazGNO+rcXT/icdKnYm2pTwcRylVUYwW7H1PHfLekVzA==
 
-react-quotes-carousel@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/react-quotes-carousel/-/react-quotes-carousel-1.0.0.tgz#a7d545371deb0fec19fc5136af4e55b32d5799ce"
-  integrity sha512-Ynac6BBBFYR/ge+WjL96GIZBxlctWz3VDuq31/B2xaGLwRL0uFcuR9SdIX/F3hW4JdBbL4Ye+AIGAVj68Z4fTA==
-
 react-reconciler@^0.24.0:
   version "0.24.0"
   resolved "https://registry.yarnpkg.com/react-reconciler/-/react-reconciler-0.24.0.tgz#5a396b2c2f5efe8554134a5935f49f546723f2dd"

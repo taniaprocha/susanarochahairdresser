@@ -1,11 +1,17 @@
-:global {
-  .quotes {
-    blockquote p {
-      font-family: $font-family;
-      font-size: $font-size-h3;
-      line-height: $line-height-h3;
-      color: white;
-      width: 500px;
-    }
-  }
+@import "../../styles/all.css";
+
+.quotes{
+  padding: $spacing-52 $spacing-52 $spacing-84 $spacing-52;
+  
+
+}
+
+.content {
+
+  margin: 0 auto;
+}
+
+.title {
+  margin-bottom: $spacing-32;
+  text-align: center;
 }

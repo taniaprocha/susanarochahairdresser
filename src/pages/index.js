@@ -65,14 +65,7 @@ const IndexPage = ({ data }) => {
             </div>
           </Element>
           <Element name="quotes" styleName="section-about">
-            <div styleName="title">
-              <Typography weight="bold" variant="h2">
-                A opinião dos nossos clientes
-              </Typography>
-            </div>
-            <div styleName="content">
-              <Quotes data={data} />
-            </div>
+            <Quotes />
           </Element>
         </div>
       </main>
