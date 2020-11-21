@@ -11,12 +11,7 @@ const Header = () => {
   const [active, setActive] = useState("photos")
 
   const handleActive = to => {
-    console.log(to)
     setActive(to)
-  }
-
-  const handleInactive = () => {
-    setActive(null)
   }
 
   const getClassNames = type => {
@@ -24,8 +19,6 @@ const Header = () => {
       active: active === type,
     })
   }
-
-  console.log(active)
 
   return (
     <header styleName="root">
