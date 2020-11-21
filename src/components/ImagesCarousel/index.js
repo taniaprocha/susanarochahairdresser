@@ -26,6 +26,9 @@ const ImagesCarousel = ({ data }) => {
         <Img alt="three" fluid={data.image3.image.fluid} />
         <Img alt="four" fluid={data.image4.image.fluid} />
         <Img alt="five" fluid={data.image5.image.fluid} />
+        <Img alt="six" fluid={data.image6.image.fluid} />
+        <Img alt="seven" fluid={data.image7.image.fluid} />
+        <Img alt="eight" fluid={data.image8.image.fluid} />
       </Slider>
     </div>
   )
@@ -54,6 +57,21 @@ ImagesCarousel.propTypes = {
       }).isRequired,
     }).isRequired,
     image5: PropTypes.shape({
+      image: PropTypes.shape({
+        fluid: PropTypes.shape({}).isRequired,
+      }).isRequired,
+    }).isRequired,
+    image6: PropTypes.shape({
+      image: PropTypes.shape({
+        fluid: PropTypes.shape({}).isRequired,
+      }).isRequired,
+    }).isRequired,
+    image7: PropTypes.shape({
+      image: PropTypes.shape({
+        fluid: PropTypes.shape({}).isRequired,
+      }).isRequired,
+    }).isRequired,
+    image8: PropTypes.shape({
       image: PropTypes.shape({
         fluid: PropTypes.shape({}).isRequired,
       }).isRequired,

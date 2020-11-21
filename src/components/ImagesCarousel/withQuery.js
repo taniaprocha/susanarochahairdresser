@@ -3,7 +3,7 @@ import { StaticQuery, graphql } from "gatsby"
 
 const query = graphql`
   query {
-    image1: file(relativePath: { eq: "IMG_3967.JPG" }) {
+    image1: file(relativePath: { eq: "IMG_20201003_162157.jpg" }) {
       image: childImageSharp {
         fluid(maxWidth: 1000, quality: 85) {
           ...GatsbyImageSharpFluid_withWebp
@@ -19,7 +19,7 @@ const query = graphql`
       }
     }
 
-    image3: file(relativePath: { eq: "IMG_3974.JPG" }) {
+    image3: file(relativePath: { eq: "IMG_20201003_162325.jpg" }) {
       image: childImageSharp {
         fluid(maxWidth: 1000, quality: 85) {
           ...GatsbyImageSharpFluid_withWebp
@@ -36,6 +36,30 @@ const query = graphql`
     }
 
     image5: file(relativePath: { eq: "IMG_3936.JPG" }) {
+      image: childImageSharp {
+        fluid(maxWidth: 1000, quality: 85) {
+          ...GatsbyImageSharpFluid_withWebp
+        }
+      }
+    }
+
+    image6: file(relativePath: { eq: "IMG_3967.JPG" }) {
+      image: childImageSharp {
+        fluid(maxWidth: 1000, quality: 85) {
+          ...GatsbyImageSharpFluid_withWebp
+        }
+      }
+    }
+
+    image7: file(relativePath: { eq: "IMG_20201003_162906.jpg" }) {
+      image: childImageSharp {
+        fluid(maxWidth: 1000, quality: 85) {
+          ...GatsbyImageSharpFluid_withWebp
+        }
+      }
+    }
+
+    image8: file(relativePath: { eq: "IMG_20201003_163024.jpg" }) {
       image: childImageSharp {
         fluid(maxWidth: 1000, quality: 85) {
           ...GatsbyImageSharpFluid_withWebp
