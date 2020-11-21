@@ -35,12 +35,14 @@
   color: white;
   text-decoration: none;
   margin-left: 20px;
+
+  cursor: pointer;
 }
 
 .link:last-child {
   padding-right: 0;
 }
 
-.active {
+.link.active {
   border-bottom: 1px solid white;
 }

@@ -10,19 +10,34 @@ const Footer = () => {
       <div styleName="footer-content">
         <div styleName="footer-column">
           <div styleName="footer-title">
-            <Typography>Localização</Typography>
+            <Typography weight="semibold" variant="h3">
+              Localização
+            </Typography>
           </div>
-          <div styleName="footer-street">Rua Artur de Castro 98</div>
-          <div styleName="footer-code">4900-592 Viana do Castelo</div>
+          <div styleName="footer-street">
+            <Typography variant="h3">4900-592 Viana do Castelo</Typography>
+            <Typography variant="h3">Rua Artur de Castro 98</Typography>
+          </div>
+          <div styleName="footer-code"></div>
         </div>
 
         <div styleName="footer-column">
-          <div styleName="footer-title">Telefone</div>
-          <div styleName="footer-phone">+351 258 827207</div>
+          <div styleName="footer-title">
+            <Typography weight="semibold" variant="h3">
+              Telefone
+            </Typography>
+          </div>
+          <div styleName="footer-phone">
+            <Typography variant="h3">+351 258 827207</Typography>
+          </div>
         </div>
 
         <div styleName="footer-column">
-          <div styleName="footer-title">Segue-nos</div>
+          <div styleName="footer-title">
+            <Typography weight="semibold" variant="h3">
+              Segue-nos
+            </Typography>
+          </div>
           <a
             target="_blank"
             rel="noreferrer"

@@ -2,33 +2,27 @@
 
 .footer {
   display: flex;
-  align-items: center;
-  padding: 24px 0;
+  max-width: 960px;
+  margin: $spacing-52 auto $spacing-84 auto;
+
   background-color: black;
 
   justify-content: center;
 
-  font-family: Montserrat;
-  font-size: 13px;
 }
 
 .footer-content {
+  width: 100%;
   display: flex;
-  flex-direction: row;
+  justify-content: space-between;
 }
 
 .footer-column {
-  margin-left: 150px;
-}
-
-.footer-column:first-child {
-  margin-left: 0;
+  
 }
 
 .footer-title {
-  margin-top: 40px;
-  margin-bottom: 8px;
-  font-weight: 600;
+  margin-bottom: $spacing-20;
 
   color: white;
 }
@@ -50,9 +44,9 @@
 }
 
 .footer-facebook {
-  margin-top: 10px;
+  margin-top: $spacing-12;
 }
 
 .facebook-img {
-  height: 18px;
+  height: $spacing-20;
 }

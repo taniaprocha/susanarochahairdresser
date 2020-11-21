@@ -15,6 +15,7 @@ const ImagesCarousel = ({ data }) => {
     adaptiveHeight: true,
     slidesToShow: 1,
     slidesToScroll: 1,
+    heigth: 500,
   }
 
   return (

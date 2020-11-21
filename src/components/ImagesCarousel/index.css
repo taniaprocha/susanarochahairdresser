@@ -8,3 +8,9 @@
 .carousel {
   overflow: hidden;
 }
+
+:global{
+  .slick-list{
+    height: 550px !important;
+  }
+}

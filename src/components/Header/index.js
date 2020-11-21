@@ -8,9 +8,10 @@ import Image from "./image"
 import "./index.css"
 
 const Header = () => {
-  const [active, setActive] = useState(null)
+  const [active, setActive] = useState("photos")
 
   const handleActive = to => {
+    console.log(to)
     setActive(to)
   }
 
@@ -24,7 +25,7 @@ const Header = () => {
     })
   }
 
-  // console.log(active)
+  console.log(active)
 
   return (
     <header styleName="root">
@@ -35,43 +36,43 @@ const Header = () => {
         </div>
         <div styleName="services">
           <Link
-            styleName="link"
-            activeClass="acive"
+            styleName={getClassNames("photos")}
             to="photos"
             spy={true}
             smooth={true}
             offset={-70}
             duration={100}
             onSetActive={handleActive}
-            onSetInactive={handleInactive}
           >
-            <Typography variant="h3">Fotos</Typography>
+            <Typography weight="medium" variant="h3">
+              Fotos
+            </Typography>
           </Link>
           <Link
-            styleName="link"
-            activeClass="acive"
+            styleName={getClassNames("services")}
             to="services"
             spy={true}
             smooth={true}
             offset={-70}
             duration={100}
             onSetActive={handleActive}
-            onSetInactive={handleInactive}
           >
-            <Typography variant="h3">Serviços</Typography>
+            <Typography weight="medium" variant="h3">
+              Serviços
+            </Typography>
           </Link>
           <Link
-            styleName="link"
-            activeClass="acive"
-            to="about"
+            styleName={getClassNames("quotes")}
+            to="quotes"
             spy={true}
             smooth={true}
             offset={-70}
             duration={100}
             onSetActive={handleActive}
-            onSetInactive={handleInactive}
           >
-            <Typography variant="h3">Quotes</Typography>
+            <Typography weight="medium" variant="h3">
+              Quotes
+            </Typography>
           </Link>
         </div>
       </div>

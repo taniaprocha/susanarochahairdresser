@@ -28,7 +28,7 @@ Typography.propTypes = {
   children: PropTypes.node.isRequired,
   variant: PropTypes.oneOf(["h1", "h2", "h3", "body"]),
   color: PropTypes.oneOf(["brown", "white", "black"]),
-  weight: PropTypes.oneOf(["regular", "medium", "bold"]),
+  weight: PropTypes.oneOf(["regular", "medium", "semibold", "bold"]),
 }
 
 Typography.defaultProps = {

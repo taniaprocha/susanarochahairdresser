@@ -11,6 +11,10 @@ function SEO({ title, description, keywords }) {
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet"
+      />
     </Helmet>
   )
 }
