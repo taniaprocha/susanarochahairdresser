@@ -3,21 +3,27 @@
 .footer {
   display: flex;
   max-width: 960px;
-  margin: $spacing-52 auto $spacing-84 auto;
+  margin: $spacing-52 auto $spacing-136 auto;
 
-
-  justify-content: center;
-
+  @include Breakpoint-mobileOnly {
+    width: 80vw;
+  }
 }
 
 .footer-content {
   width: 100%;
   display: flex;
   justify-content: space-between;
+
+  @include Breakpoint-mobileOnly {
+    display: block;
+  }
 }
 
-.footer-column {
-  
+.footer-column:not(:first-child) {
+  @include Breakpoint-mobileOnly {
+    margin-top: $spacing-20;
+  }
 }
 
 .footer-title {

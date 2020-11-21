@@ -1,13 +1,10 @@
 @import "../../styles/all.css";
 
 .quotes{
-  padding: $spacing-52 $spacing-52 $spacing-84 $spacing-52;
-  
-
+  padding: $spacing-52 $spacing-52 $spacing-136 $spacing-52;
 }
 
 .content {
-
   margin: 0 auto;
 }
 

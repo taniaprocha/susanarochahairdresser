@@ -7,6 +7,10 @@
   position: fixed;
   z-index: 10;
   top: 0;
+
+  @include Breakpoint-mobileOnly {
+    height: auto;
+  }
 }
 
 .container {
@@ -15,11 +19,20 @@
   justify-content: space-between;
   max-width: 960px;
   margin: 0 auto;
+
+
+  @include Breakpoint-mobileOnly {
+    width: 90vw;
+  }
 }
 
 .services {
   display: flex;
   text-align: right;
+
+  @include Breakpoint-mobileOnly {
+    display: block;
+  }
 }
 
 .brand {
@@ -34,7 +47,10 @@
 .link {
   color: white;
   text-decoration: none;
-  margin-left: 20px;
+
+  @include Breakpoint-desktopOnly {
+    margin-left: $spacing-20;
+  }
 
   cursor: pointer;
 }

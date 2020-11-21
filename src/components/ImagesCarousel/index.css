@@ -12,5 +12,9 @@
 .carousel-container :global{
   .slick-list{
     height: 550px !important;
+
+    @include Breakpoint-mobileOnly {
+      height: 50vh !important;
+    }
   }
 }
