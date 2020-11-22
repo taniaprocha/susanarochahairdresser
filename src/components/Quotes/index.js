@@ -45,6 +45,14 @@ const Quotes = () => {
           </Typography>
 
           <Typography weight="medium" variant="h3">
+            "Além de uma amizade escolar, tenho o prazer de entregar o meu
+            cabelo "rebelde" a uma excelente profissional, que me ajuda a tornar
+            as minhas mudanças possíveis, sempre preservando o meu cabelo...
+            Obrigado Susana Rocha, pelo excelente profissionalismo e sobretudo
+            pela tua humildade que te torna gigante..." - Patrícia Cerqueira
+          </Typography>
+
+          <Typography weight="medium" variant="h3">
             "A melhor cabeleireira do MUNDO." - Migueis Carla
           </Typography>
         </Slider>
