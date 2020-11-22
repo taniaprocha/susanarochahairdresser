@@ -9,7 +9,7 @@ const Quotes = () => {
     dots: false,
     infinite: true,
     autoplay: true,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 5000,
     accessibility: true,
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -33,10 +33,9 @@ const Quotes = () => {
           </Typography>
 
           <Typography weight="medium" variant="h3">
-            O meu cabelo já não conhece outra cabeleireira, se não a Susana.
-            Alinha em todos os meus desvaneios e grandes mudanças, sempre com
-            conselhos quando os devaneios podem prejudicar a saude do meu
-            cabelo. - Tânia Rocha
+            O meu cabelo não conhece outra cabeleireira, se não a Susana. Alinha
+            em todas as minhas mudanças de visual, sempre com conselhos para
+            preservar a minha saúde capilar. - Tânia Rocha
           </Typography>
         </Slider>
       </div>
