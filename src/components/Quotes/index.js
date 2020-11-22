@@ -27,22 +27,25 @@ const Quotes = () => {
         <Slider {...settings}>
           <Typography weight="medium" variant="h3">
             "Ter uma mãe cabeleireira é ótimo. Todos os dias de manhã tenho quem
-            me pentear, e sempre com penteados diferentes. Vou para a escola
-            como uma modelo profissional e toda a gente elogia.", - Diana
-            Pereira
+            me penteie, e sempre com penteados diferentes. Vou para a escola
+            como uma modelo profissional e toda a gente elogia." - Diana Pereira
           </Typography>
 
           <Typography weight="medium" variant="h3">
-            O meu cabelo não conhece outra cabeleireira, se não a Susana. Alinha
-            em todas as minhas mudanças de visual, sempre com conselhos para
-            preservar a minha saúde capilar. - Tânia Rocha
+            "O meu cabelo não conhece outra cabeleireira, se não a Susana.
+            Alinha em todas as minhas mudanças de visual, sempre com conselhos
+            para preservar a minha saúde capilar." - Tânia Rocha
           </Typography>
 
           <Typography weight="medium" variant="h3">
-            Quem vai pela primeira vez nunca mais esquece. Alinha nas mudanças e
-            nas loucuras das clientes, dando sempre o melhor conselho e opinião.
-            Profissional, acolhedora e sempre bem disposta. Quem gosta vai, quem
-            ama fica!! - Ana Gonçalves
+            "Quem vai pela primeira vez nunca mais esquece. Alinha nas mudanças
+            e nas loucuras das clientes, dando sempre o melhor conselho e
+            opinião. Profissional, acolhedora e sempre bem disposta. Quem gosta
+            vai, quem ama fica!!" - Ana Gonçalves
+          </Typography>
+
+          <Typography weight="medium" variant="h3">
+            "A melhor cabeleireira do MUNDO." - Migueis Carla
           </Typography>
         </Slider>
       </div>
