@@ -9,7 +9,7 @@ const Quotes = () => {
     dots: false,
     infinite: true,
     autoplay: true,
-    autoplaySpeed: 5000,
+    autoplaySpeed: 10000,
     accessibility: true,
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -36,6 +36,13 @@ const Quotes = () => {
             O meu cabelo não conhece outra cabeleireira, se não a Susana. Alinha
             em todas as minhas mudanças de visual, sempre com conselhos para
             preservar a minha saúde capilar. - Tânia Rocha
+          </Typography>
+
+          <Typography weight="medium" variant="h3">
+            Quem vai pela primeira vez nunca mais esquece. Alinha nas mudanças e
+            nas loucuras das clientes, dando sempre o melhor conselho e opinião.
+            Profissional, acolhedora e sempre bem disposta. Quem gosta vai, quem
+            ama fica!! - Ana Gonçalves
           </Typography>
         </Slider>
       </div>

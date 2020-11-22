@@ -64,7 +64,7 @@ const Header = () => {
             onSetActive={handleActive}
           >
             <Typography weight="medium" variant="h3">
-              Quotes
+              Opiniões
             </Typography>
           </Link>
         </div>

@@ -58,6 +58,17 @@ const Footer = () => {
           </a>
         </div>
       </div>
+      <div styleName="develop">
+        <Typography variant="body">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://www.linkedin.com/in/tanisharocha/"
+          >
+            Desenvolvido por Tânia Rocha
+          </a>
+        </Typography>
+      </div>
     </footer>
   )
 }

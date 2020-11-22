@@ -2,8 +2,9 @@
 
 .footer {
   display: flex;
+  flex-direction: column;
   max-width: 960px;
-  margin: $spacing-52 auto $spacing-136 auto;
+  margin: $spacing-52 auto 0 auto;
 
   @include Breakpoint-mobileOnly {
     width: 80vw;
@@ -54,4 +55,14 @@
 
 .facebook-img {
   height: $spacing-20;
+}
+
+.develop{
+  display: block;
+  text-align: center;
+  margin-top: $spacing-52;
+  padding-top: $spacing-32;
+  padding-bottom: $spacing-32;
+
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
 }
