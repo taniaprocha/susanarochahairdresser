@@ -10,11 +10,6 @@
 }
 
 .carousel-container :global {
-  .slick-track {
-    @include Breakpoint-mobileOnly {
-      width: 100vw !important;
-    }
-  }
   .slick-list {
     height: 550px !important;
 
