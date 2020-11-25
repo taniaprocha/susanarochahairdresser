@@ -22,7 +22,10 @@ const Header = () => {
 
   return (
     <header styleName="root">
-      <SEO title="SusanaRochaCabeleireiros" description="" keywords="" />
+      <SEO
+        title="SusanaRochaCabeleireiros"
+        description="Susana Rocha cabeleireiros website"
+      />
       <div styleName="container">
         <div styleName="brand">
           <Image />

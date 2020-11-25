@@ -21,14 +21,20 @@ const ImagesCarousel = ({ data }) => {
   return (
     <div styleName="carousel-container">
       <Slider {...settings}>
-        <Img alt="one" fluid={data.image1.image.fluid} />
-        <Img alt="two" fluid={data.image2.image.fluid} />
-        <Img alt="three" fluid={data.image3.image.fluid} />
-        <Img alt="four" fluid={data.image4.image.fluid} />
-        <Img alt="five" fluid={data.image5.image.fluid} />
-        <Img alt="six" fluid={data.image6.image.fluid} />
-        <Img alt="seven" fluid={data.image7.image.fluid} />
-        <Img alt="eight" fluid={data.image8.image.fluid} />
+        <Img
+          alt="hair salon with bright light"
+          fluid={data.image1.image.fluid}
+        />
+        <Img alt="hair washing chairs" fluid={data.image2.image.fluid} />
+        <Img alt="hair salon main entry" fluid={data.image3.image.fluid} />
+        <Img alt="hair salon reception view" fluid={data.image4.image.fluid} />
+        <Img alt="hair salon 3 mirrors" fluid={data.image5.image.fluid} />
+        <Img alt="hair salon shelves view" fluid={data.image6.image.fluid} />
+        <Img alt="hair salon main entry view" fluid={data.image7.image.fluid} />
+        <Img
+          alt="hair salon chairs and mirrors"
+          fluid={data.image8.image.fluid}
+        />
       </Slider>
     </div>
   )

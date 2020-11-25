@@ -9,12 +9,21 @@
   overflow: hidden;
 }
 
-.carousel-container :global{
-  .slick-list{
+.carousel-container :global {
+  .slick-track {
+    @include Breakpoint-mobileOnly {
+      width: 100vw !important;
+    }
+  }
+  .slick-list {
     height: 550px !important;
 
     @include Breakpoint-mobileOnly {
       height: 50vh !important;
     }
+  }
+
+  .slick-dots {
+    z-index: 1;
   }
 }
