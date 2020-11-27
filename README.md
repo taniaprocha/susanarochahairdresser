@@ -1,9 +1,6 @@
 
-1.  **Start developing.**
+1.  **Susana Rocha hairdresser website.**
 
-    Navigate into your new site’s directory and start it up.
-
-    ```shell
-    cd my-default-starter/
-    gatsby develop
-    ```
+    https://susanarochacabeleireiros.pt/
+    
+    Start: `yarn develop`
