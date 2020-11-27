@@ -30,12 +30,11 @@ const ImagesCarousel = ({ data }) => {
   const settings = {
     dots: true,
     infinite: true,
-    autoplay: true,
+    autoplay: false,
     accessibility: true,
     adaptiveHeight: true,
     slidesToShow: 1,
     slidesToScroll: 1,
-    heigth: 500,
     prevArrow: <PrevArrow />,
     nextArrow: <NextArrow />,
   }

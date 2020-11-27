@@ -11,10 +11,14 @@
 
 .carousel-container :global {
   .slick-list {
-    height: 550px !important;
+    height: 600px !important;
 
     @include Breakpoint-mobileOnly {
       height: 50vh !important;
+
+      .gatsby-image-wrapper {
+        height: 50vh;
+      }
     }
   }
 
@@ -26,10 +30,10 @@
   .slick-next {
     width: 30px;
     height: 30px;
-    background-color: $white;
+    background-color: rgba(255, 255, 255, 0.7);
     border-radius: 100%;
 
-    box-shadow: rgb(0, 0, 0, 0.3) 0px 1px 4px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px;
   }
 
   .slick-prev:before,
