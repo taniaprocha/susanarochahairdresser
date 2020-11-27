@@ -2,9 +2,29 @@ import React from "react"
 import PropTypes from "prop-types"
 import Slider from "react-slick"
 import Img from "gatsby-image/withIEPolyfill"
-
+import { ArrowLeft, ArrowRight } from "../Icons"
 import withQuery from "./withQuery"
 import "./index.css"
+
+function PrevArrow(props) {
+  const { className, onClick } = props
+
+  return (
+    <button type="button" className={className} onClick={onClick}>
+      <ArrowLeft />
+    </button>
+  )
+}
+
+function NextArrow(props) {
+  const { className, onClick } = props
+
+  return (
+    <button type="button" className={className} onClick={onClick}>
+      <ArrowRight />
+    </button>
+  )
+}
 
 const ImagesCarousel = ({ data }) => {
   const settings = {
@@ -16,6 +36,8 @@ const ImagesCarousel = ({ data }) => {
     slidesToShow: 1,
     slidesToScroll: 1,
     heigth: 500,
+    prevArrow: <PrevArrow />,
+    nextArrow: <NextArrow />,
   }
 
   return (

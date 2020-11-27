@@ -1,0 +1,13 @@
+@import "../../styles/all.css";
+
+.arrow-left,
+.arrow-right {
+  .path {
+    stroke: $brown;
+    stroke-width: 4px;
+  }
+}
+
+.arrow-right {
+  transform: rotate(180deg);
+}
