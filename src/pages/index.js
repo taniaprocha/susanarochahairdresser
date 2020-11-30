@@ -1,18 +1,49 @@
 import React from "react"
-import PropTypes from "prop-types"
 import { Element } from "react-scroll"
 import Header from "root/components/Header"
 import ImagesCarousel from "root/components/ImagesCarousel"
 import Footer from "root/components/Footer"
 import Typography from "root/components/Typography"
 import Quotes from "root/components/Quotes"
-import withQuery from "./withQuery"
+import Particles from "react-particles-js"
 
 import "./index.css"
 
-const IndexPage = ({ data }) => {
+const IndexPage = () => {
   return (
-    <>
+    <div styleName="root">
+      <div styleName="particles">
+        <Particles
+          styleName="canvas"
+          params={{
+            particles: {
+              number: {
+                value: 180,
+                density: {
+                  enable: false,
+                },
+              },
+              size: {
+                value: 5,
+                random: true,
+              },
+              move: {
+                direction: "bottom",
+                out_mode: "out",
+                speed: 1,
+                random: false,
+              },
+              line_linked: {
+                enable: false,
+              },
+              opacity: {
+                random: true,
+              },
+            },
+            retina_detect: true,
+          }}
+        />
+      </div>
       <Header />
       <main styleName="main">
         <div styleName="container">
@@ -64,24 +95,14 @@ const IndexPage = ({ data }) => {
               </Typography>
             </div>
           </Element>
-          <Element name="quotes" styleName="section-about">
+          <Element name="quotes" styleName="section-quotes">
             <Quotes />
           </Element>
         </div>
       </main>
       <Footer />
-    </>
+    </div>
   )
 }
 
-IndexPage.propTypes = {
-  data: PropTypes.shape({
-    tania: PropTypes.shape({
-      image: PropTypes.shape({
-        fluid: PropTypes.shape({}).isRequired,
-      }).isRequired,
-    }).isRequired,
-  }).isRequired,
-}
-
-export default withQuery(IndexPage)
+export default IndexPage

@@ -9,7 +9,7 @@ const Quotes = () => {
     dots: false,
     infinite: true,
     autoplay: true,
-    autoplaySpeed: 10000,
+    autoplaySpeed: 3000,
     accessibility: true,
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -26,34 +26,36 @@ const Quotes = () => {
       <div styleName="content">
         <Slider {...settings}>
           <Typography weight="medium" variant="h3">
-            "Ter uma mãe cabeleireira é ótimo. Todos os dias de manhã tenho quem
-            me penteie, e sempre com penteados diferentes. Vou para a escola
-            como uma modelo profissional e toda a gente elogia." - Diana Pereira
+            &quot;Ter uma mãe cabeleireira é ótimo. Todos os dias de manhã tenho
+            quem me penteie, e sempre com penteados diferentes. Vou para a
+            escola como uma modelo profissional e toda a gente elogia.&quot; -
+            Diana Pereira
           </Typography>
 
           <Typography weight="medium" variant="h3">
-            "O meu cabelo não conhece outra cabeleireira, se não a Susana.
+            &quot;O meu cabelo não conhece outra cabeleireira, se não a Susana.
             Alinha em todas as minhas mudanças de visual, sempre com conselhos
-            para preservar a minha saúde capilar." - Tânia Rocha
+            para preservar a minha saúde capilar.&quot; - Tânia Rocha
           </Typography>
 
           <Typography weight="medium" variant="h3">
-            "Quem vai pela primeira vez nunca mais esquece. Alinha nas mudanças
-            e nas loucuras das clientes, dando sempre o melhor conselho e
-            opinião. Profissional, acolhedora e sempre bem disposta. Quem gosta
-            vai, quem ama fica!!" - Ana Gonçalves
+            &quot;Quem vai pela primeira vez nunca mais esquece. Alinha nas
+            mudanças e nas loucuras das clientes, dando sempre o melhor conselho
+            e opinião. Profissional, acolhedora e sempre bem disposta. Quem
+            gosta vai, quem ama fica!!&quot; - Ana Gonçalves
           </Typography>
 
           <Typography weight="medium" variant="h3">
-            "Além de uma amizade escolar, tenho o prazer de entregar o meu
-            cabelo "rebelde" a uma excelente profissional, que me ajuda a tornar
-            as minhas mudanças possíveis, sempre preservando o meu cabelo...
-            Obrigado Susana Rocha, pelo excelente profissionalismo e sobretudo
-            pela tua humildade que te torna gigante..." - Patrícia Cerqueira
+            &quot;Além de uma amizade escolar, tenho o prazer de entregar o meu
+            cabelo &quot;rebelde&quot; a uma excelente profissional, que me
+            ajuda a tornar as minhas mudanças possíveis, sempre preservando o
+            meu cabelo... Obrigado Susana Rocha, pelo excelente profissionalismo
+            e sobretudo pela tua humildade que te torna gigante...&quot; -
+            Patrícia Cerqueira
           </Typography>
 
           <Typography weight="medium" variant="h3">
-            "A melhor cabeleireira do MUNDO." - Migueis Carla
+            &quot;A melhor cabeleireira do MUNDO.&quot; - Migueis Carla
           </Typography>
         </Slider>
       </div>

@@ -17,7 +17,7 @@ const Footer = () => {
             <Typography variant="h3">4900-592 Viana do Castelo</Typography>
             <Typography variant="h3">Rua Artur de Castro 98</Typography>
           </div>
-          <div styleName="footer-code"></div>
+          <div styleName="footer-code" />
         </div>
 
         <div styleName="footer-column">
@@ -72,4 +72,5 @@ const Footer = () => {
     </footer>
   )
 }
+
 export default Footer

@@ -6,8 +6,8 @@ import { ArrowLeft, ArrowRight } from "../Icons"
 import withQuery from "./withQuery"
 import "./index.css"
 
-function PrevArrow(props) {
-  const { className, onClick } = props
+function PrevArrow(carouselProps) {
+  const { className, onClick } = carouselProps
 
   return (
     <button type="button" className={className} onClick={onClick}>
@@ -16,8 +16,8 @@ function PrevArrow(props) {
   )
 }
 
-function NextArrow(props) {
-  const { className, onClick } = props
+function NextArrow(carouselProps) {
+  const { className, onClick } = carouselProps
 
   return (
     <button type="button" className={className} onClick={onClick}>
