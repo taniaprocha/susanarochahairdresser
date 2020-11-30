@@ -1,6 +1,5 @@
+**Susana Rocha hairdresser website.**
 
-1.  **Susana Rocha hairdresser website.**
+https://susanarochacabeleireiros.pt/
 
-    https://susanarochacabeleireiros.pt/
-    
-    Start: `yarn develop`
+Start: `yarn develop`
