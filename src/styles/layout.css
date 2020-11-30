@@ -23,3 +23,6 @@ $nine-columns: calc(9 * $column + 8 * $gutter);
 $ten-columns: calc(10 * $column + 9 * $gutter);
 $eleven-columns: calc(11 * $column + 10 * $gutter);
 $twelve-columns: calc(12 * $column + 11 * $gutter);
+
+$navbarHeight: $spacing-84;
+$navbarMobileHeight: calc($spacing-84 + $spacing-8);

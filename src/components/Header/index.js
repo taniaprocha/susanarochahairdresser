@@ -34,8 +34,8 @@ const Header = () => {
           <Link
             styleName={getClassNames("photos")}
             to="photos"
-            spy={true}
-            smooth={true}
+            spy
+            smooth={false}
             offset={-70}
             duration={100}
             onSetActive={handleActive}
@@ -47,9 +47,9 @@ const Header = () => {
           <Link
             styleName={getClassNames("services")}
             to="services"
-            spy={true}
-            smooth={true}
-            offset={-70}
+            spy
+            smooth={false}
+            offset={-100}
             duration={100}
             onSetActive={handleActive}
           >
@@ -60,9 +60,9 @@ const Header = () => {
           <Link
             styleName={getClassNames("quotes")}
             to="quotes"
-            spy={true}
-            smooth={true}
-            offset={-70}
+            spy
+            smooth={false}
+            offset={-300}
             duration={100}
             onSetActive={handleActive}
           >

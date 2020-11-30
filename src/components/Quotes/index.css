@@ -1,14 +1,24 @@
 @import "../../styles/all.css";
 
-.quotes{
-  padding: $spacing-52 $spacing-52 $spacing-136 $spacing-52;
+.quotes {
+  padding: $spacing-84 $spacing-52 $spacing-136 $spacing-52;
+
+  @include Breakpoint-mobileOnly {
+    padding: $spacing-52 $spacing-52 $spacing-84 $spacing-52;
+  }
 }
 
 .content {
+  width: 80%;
   margin: 0 auto;
+
+  @include Breakpoint-mobileOnly {
+    width: 100%;
+  }
 }
 
 .title {
   margin-bottom: $spacing-32;
+
   text-align: center;
 }

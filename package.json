@@ -12,7 +12,9 @@
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
-    "start": "npm run develop"
+    "start": "npm run develop",
+    "lint": "eslint --fix src *.js",
+    "lint-styles": "stylelint \"src/**/*.css\" \"src/**/*.scss\""
   },
   "dependencies": {
     "@babel/plugin-proposal-decorators": "^7.7.0",
@@ -41,12 +43,13 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-helmet": "^5.2.1",
+    "react-particles-js": "^3.4.1",
     "react-scroll": "^1.8.1",
     "react-slick": "^0.27.11"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.3",
-    "eslint": "^6.8.0",
+    "eslint": "^7.14.0",
     "eslint-config-airbnb": "^18.0.1",
     "eslint-config-prettier": "^6.10.0",
     "eslint-plugin-import": "^2.20.1",
