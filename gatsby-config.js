@@ -5,6 +5,7 @@ module.exports = {
     title: `Susana Rocha Cabeleireiros`,
     description: `Susana Rocha Hairdresser Website`,
     author: `Tânia Rocha | https://github.com/taniaprocha`,
+    keywords: `Cabeleireiro, Viana do Castelo`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

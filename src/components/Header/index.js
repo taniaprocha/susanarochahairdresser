@@ -24,7 +24,8 @@ const Header = () => {
     <header styleName="root">
       <SEO
         title="SusanaRochaCabeleireiros"
-        description="Susana Rocha cabeleireiros website"
+        description="Susana Rocha Cabeleireiros website"
+        keywords="Cabeleireiro, Viana do Castelo, Hairdresser, Susana Rocha, Abelheira"
       />
       <div styleName="container">
         <div styleName="brand">
