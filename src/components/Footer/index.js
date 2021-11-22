@@ -3,7 +3,8 @@ import Typography from "../Typography"
 
 import "./index.css"
 
-const Footer = () => {
+// eslint-disable-next-line func-names
+const Footer = function() {
   return (
     <footer styleName="footer">
       <div styleName="footer-content">
@@ -37,12 +38,8 @@ const Footer = () => {
               Segue-nos
             </Typography>
           </div>
-          <a
-            target="_blank"
-            rel="noreferrer"
-            styleName="footer-facebook"
-            href="https://www.facebook.com/susanarochacabeleireiros"
-          >
+          <div styleName="footer-facebook">
+            <a target="_blank" rel="noreferrer" href="https://www.facebook.com/susanarochacabeleireiros">
             <svg
               width="28"
               height="28"
@@ -56,6 +53,7 @@ const Footer = () => {
               />
             </svg>
           </a>
+          </div>
         </div>
       </div>
       <div styleName="develop">
