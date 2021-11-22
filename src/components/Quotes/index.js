@@ -9,7 +9,7 @@ const Quotes = () => {
     dots: false,
     infinite: true,
     autoplay: true,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 7000,
     accessibility: true,
     slidesToShow: 1,
     slidesToScroll: 1,
