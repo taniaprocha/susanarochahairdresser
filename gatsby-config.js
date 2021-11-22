@@ -3,7 +3,7 @@ const path = require("path")
 module.exports = {
   siteMetadata: {
     title: `Susana Rocha Cabeleireiros`,
-    description: ``,
+    description: `Susana Rocha Hairdresser Website`,
     author: `Tânia Rocha | https://github.com/taniaprocha`,
   },
   plugins: [
