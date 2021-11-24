@@ -3,6 +3,8 @@ import PropTypes from "prop-types"
 import Helmet from "react-helmet"
 
 function SEO({ title, description, keywords }) {
+  console.log(process.env.GATSBY_GOOGLE_SITE_VERIFICATION);
+  
   return (
     <Helmet>
       <title>{title}</title>
@@ -11,7 +13,7 @@ function SEO({ title, description, keywords }) {
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />
-      <meta nane="google-site-verification" content="inZRMYQC7zg-bvzN1d7vtxCnPKMaJ11rbolNFtKNTic" />
+      <meta nane="google-site-verification" content={process.env.GATSBY_GOOGLE_SITE_VERIFICATION} />
       <link
         href="https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500;600;700&display=swap"
         rel="stylesheet"
