@@ -5909,6 +5909,14 @@ gatsby-plugin-google-analytics@^4.2.0:
     minimatch "3.0.4"
     web-vitals "^1.1.2"
 
+gatsby-plugin-google-tagmanager@^4.2.0:
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-google-tagmanager/-/gatsby-plugin-google-tagmanager-4.2.0.tgz#281077d35c069d2cfa53256713266839f2ff1cd2"
+  integrity sha512-4XS0CbSgv2w0fpiF/s5cKDkIpCSOe/SKUISwyIbS4yV5n6FDDAFfqHzZWaq4jZNWvTjpc0Darf3QSERd43y6+w==
+  dependencies:
+    "@babel/runtime" "^7.15.4"
+    web-vitals "^1.1.2"
+
 gatsby-plugin-manifest@^4.2.0:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-manifest/-/gatsby-plugin-manifest-4.2.0.tgz#d5a675f934f2322ba4077d72ac5d02bf173481bf"

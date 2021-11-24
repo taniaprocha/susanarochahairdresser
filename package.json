@@ -25,6 +25,7 @@
     "gatsby": "^4.2.0",
     "gatsby-image": "^3.11.0",
     "gatsby-plugin-google-analytics": "^4.2.0",
+    "gatsby-plugin-google-tagmanager": "^4.2.0",
     "gatsby-plugin-manifest": "^4.2.0",
     "gatsby-plugin-offline": "^5.2.0",
     "gatsby-plugin-postcss": "^5.2.0",
