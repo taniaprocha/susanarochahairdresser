@@ -1,5 +1,9 @@
 const path = require("path")
 
+require("dotenv").config({
+  path: `.env.production`,
+})
+
 module.exports = {
   siteMetadata: {
     title: `Susana Rocha Cabeleireiros`,
@@ -44,13 +48,13 @@ module.exports = {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         // The property ID; the tracking code won't be generated without it
-        trackingId: "294639039",
+        trackingId: process.env.GATSBY_TRACKING_ID,
       },
     },
     {
       resolve: "gatsby-plugin-google-tagmanager",
       options: {
-        id: "G-K901YQSZTH",
+        id: process.env.GATSBY_TAG_MANAGER,
       },
     },
   ],

@@ -2,9 +2,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import Helmet from "react-helmet"
 
-function SEO({ title, description, keywords }) {
-  console.log(process.env.GATSBY_GOOGLE_SITE_VERIFICATION);
-  
+function SEO({ title, description, keywords }) {  
   return (
     <Helmet>
       <title>{title}</title>
