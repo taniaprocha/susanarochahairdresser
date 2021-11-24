@@ -40,5 +40,11 @@ module.exports = {
         root: path.join(__dirname, "src"),
       },
     },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        // The property ID; the tracking code won't be generated without it
+        trackingId: "294639039",
+      },
   ],
 }
