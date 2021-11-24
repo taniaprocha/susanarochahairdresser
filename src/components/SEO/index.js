@@ -11,7 +11,7 @@ function SEO({ title, description, keywords }) {
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />
-      <meta nane="google-site-verification" content="inZRMYQC7zg-bvzN1d7vtxCnPKMaJ11rbolNFtKNTic" />
+      <meta name="google-site-verification" content={process.env.GOOGLE_SITE_VERIFICATION} />
       <link
         href="https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500;600;700&display=swap"
         rel="stylesheet"
