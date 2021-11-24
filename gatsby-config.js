@@ -46,5 +46,6 @@ module.exports = {
         // The property ID; the tracking code won't be generated without it
         trackingId: "294639039",
       },
+    },
   ],
 }
