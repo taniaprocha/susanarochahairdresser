@@ -1,10 +1,10 @@
 const path = require("path")
 
 require("dotenv").config({
-  path: `.env.production`,
+  path: `.env`,
 })
 
-console.log(process.env.GATSBY_TAG_MANAGER, process.env.GATSBY_TRACKING_ID)
+console.log(process.env.GATSBY_TRACKING_ID, process.env.GATSBY_TAG_MANAGER);
 
 module.exports = {
   siteMetadata: {
