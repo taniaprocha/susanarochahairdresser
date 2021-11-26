@@ -4,6 +4,8 @@ require("dotenv").config({
   path: `.env.production`,
 })
 
+console.log(process.env.GATSBY_TAG_MANAGER, process.env.GATSBY_TRACKING_ID)
+
 module.exports = {
   siteMetadata: {
     title: `Susana Rocha Cabeleireiros`,
