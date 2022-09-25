@@ -1,4 +1,4 @@
-import React, { Component } from "react"
+import React from "react"
 import { StaticQuery, graphql } from "gatsby"
 
 const query = graphql`
@@ -13,11 +13,8 @@ const query = graphql`
   }
 `
 
-function QueryComponent() {
+export default Component => () => {
   return (
     <StaticQuery query={query} render={data => <Component data={data} />} />
   )
 }
-
-
-export default QueryComponent;
