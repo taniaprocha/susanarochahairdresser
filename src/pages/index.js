@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React from "react"
 import { Element } from "react-scroll"
 import Header from "root/components/Header"
 import ImagesCarousel from "root/components/ImagesCarousel"
@@ -8,11 +8,9 @@ import Quotes from "root/components/Quotes"
 import Particles from "react-particles"
 
 import "./index.css"
-import { Engine } from "tsparticles-engine"
 import { loadSnowPreset } from "tsparticles-preset-snow"
 
 const IndexPage = () => {
-  const [loaded, setLoaded] = useState(false);
   const options = {
     preset: "snow",
 
@@ -21,8 +19,6 @@ const IndexPage = () => {
   const customInit = async engine => {
     // this adds the preset to tsParticles, you can safely use the
     await loadSnowPreset(engine);
-    console.log('loaded');
-    setLoaded(true);
   }
 
 

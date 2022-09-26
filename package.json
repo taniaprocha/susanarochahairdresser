@@ -51,7 +51,6 @@
     "react-slick": "^0.29.0",
     "sharp": "^0.29.3",
     "tsparticles": "^1.37.4",
-    "tsparticles-engine": "^2.3.2",
     "tsparticles-preset-snow": "^2.3.2"
   },
   "devDependencies": {
