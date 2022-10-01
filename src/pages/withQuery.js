@@ -13,8 +13,10 @@ const query = graphql`
   }
 `
 
-export default Component => () => {
+const QueryComponent = () => {
   return (
     <StaticQuery query={query} render={data => <Component data={data} />} />
   )
 }
+
+export default QueryComponent;
