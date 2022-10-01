@@ -12,6 +12,8 @@ module.exports = {
     keywords: `Cabeleireiro, Viana do Castelo`,
   },
   plugins: [
+    `gatsby-plugin-image`,
+    `gatsby-plugin-sharp`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-postcss`,
     {
@@ -21,10 +23,10 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
-    {
+    /* {
       resolve: `gatsby-plugin-sharp`,
-      options: { failOnError: false },
-    },
+      options: { failOn: 'error' },
+    }, */
     `gatsby-transformer-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,

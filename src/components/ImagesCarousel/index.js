@@ -1,9 +1,7 @@
 import React from "react"
-import PropTypes from "prop-types"
 import Slider from "react-slick"
-import Img from "gatsby-image/withIEPolyfill"
+import { StaticImage } from "gatsby-plugin-image"
 import { ArrowLeft, ArrowRight } from "../Icons"
-import withQuery from "./withQuery"
 import "./index.css"
 
 function PrevArrow(carouselProps) {
@@ -42,68 +40,17 @@ const ImagesCarousel = ({ data }) => {
   return (
     <div styleName="carousel-container">
       <Slider {...settings}>
-        <Img
-          alt="hair salon with bright light"
-          fluid={data.image1.image.fluid}
-        />
-        <Img alt="hair washing chairs" fluid={data.image2.image.fluid} />
-        <Img alt="hair salon main entry" fluid={data.image3.image.fluid} />
-        <Img alt="hair salon reception view" fluid={data.image4.image.fluid} />
-        <Img alt="hair salon 3 mirrors" fluid={data.image5.image.fluid} />
-        <Img alt="hair salon shelves view" fluid={data.image6.image.fluid} />
-        <Img alt="hair salon main entry view" fluid={data.image7.image.fluid} />
-        <Img
-          alt="hair salon chairs and mirrors"
-          fluid={data.image8.image.fluid}
-        />
+        <StaticImage src="../../images/IMG_20201003_162157.jpg" alt="please include an alt" />
+        <StaticImage src="../../images/IMG_3963.jpg" alt="hair washing chairs" />
+        <StaticImage src="../../images/IMG_20201003_162325.jpg" alt="hair salon main entry" />
+        <StaticImage src="../../images/IMG_3955.jpg"  alt="hair salon reception view"  />
+        <StaticImage src="../../images/IMG_3936.jpg" alt="hair salon 3 mirrors"  />
+        <StaticImage src="../../images/IMG_3967.jpg" alt="hair salon shelves view"  />
+        <StaticImage src="../../images/IMG_20201003_162906.jpg" alt="hair salon main entry view" />
+        <StaticImage src="../../images/IMG_20201003_163024.jpg" alt="hair salon chairs and mirrors" /> 
       </Slider>
     </div>
   )
 }
 
-ImagesCarousel.propTypes = {
-  data: PropTypes.shape({
-    image1: PropTypes.shape({
-      image: PropTypes.shape({
-        fluid: PropTypes.shape({}).isRequired,
-      }).isRequired,
-    }).isRequired,
-    image2: PropTypes.shape({
-      image: PropTypes.shape({
-        fluid: PropTypes.shape({}).isRequired,
-      }).isRequired,
-    }).isRequired,
-    image3: PropTypes.shape({
-      image: PropTypes.shape({
-        fluid: PropTypes.shape({}).isRequired,
-      }).isRequired,
-    }).isRequired,
-    image4: PropTypes.shape({
-      image: PropTypes.shape({
-        fluid: PropTypes.shape({}).isRequired,
-      }).isRequired,
-    }).isRequired,
-    image5: PropTypes.shape({
-      image: PropTypes.shape({
-        fluid: PropTypes.shape({}).isRequired,
-      }).isRequired,
-    }).isRequired,
-    image6: PropTypes.shape({
-      image: PropTypes.shape({
-        fluid: PropTypes.shape({}).isRequired,
-      }).isRequired,
-    }).isRequired,
-    image7: PropTypes.shape({
-      image: PropTypes.shape({
-        fluid: PropTypes.shape({}).isRequired,
-      }).isRequired,
-    }).isRequired,
-    image8: PropTypes.shape({
-      image: PropTypes.shape({
-        fluid: PropTypes.shape({}).isRequired,
-      }).isRequired,
-    }).isRequired,
-  }).isRequired,
-}
-
-export default withQuery(ImagesCarousel)
+export default ImagesCarousel

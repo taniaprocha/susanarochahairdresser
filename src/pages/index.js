@@ -1,20 +1,37 @@
-import React from "react"
+import React, { useState } from "react"
 import { Element } from "react-scroll"
 import Header from "root/components/Header"
 import ImagesCarousel from "root/components/ImagesCarousel"
 import Footer from "root/components/Footer"
 import Typography from "root/components/Typography"
 import Quotes from "root/components/Quotes"
-import Particles from "react-particles-js"
+import Particles from "react-particles"
 
 import "./index.css"
+import { loadSnowPreset } from "tsparticles-preset-snow"
 
 const IndexPage = () => {
+  const [loaded, setLoaded] = useState(false);
+  const options = {
+    preset: "snow",
+
+  };
+
+  const customInit = async engine => {
+    // this adds the preset to tsParticles, you can safely use the
+    await loadSnowPreset(engine);
+    console.log('loaded');
+    setLoaded(true);
+  }
+
+
   return (
     <div styleName="root">
       <div styleName="particles">
         <Particles
           styleName="canvas"
+          options={options}
+          init={customInit}
           params={{
             particles: {
               number: {
@@ -32,6 +49,7 @@ const IndexPage = () => {
                 out_mode: "out",
                 speed: 1,
                 random: false,
+                enable: true,
               },
               line_linked: {
                 enable: false,
