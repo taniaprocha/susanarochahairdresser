@@ -38,16 +38,16 @@ const ImagesCarousel = ({ data }) => {
   }
 
   return (
-    <div styleName="carousel-container">
+    <div styleName="carousel-container"> 
       <Slider {...settings}>
-        <StaticImage src="../../images/IMG_20201003_162157.jpg" alt="please include an alt" />
-        <StaticImage src="../../images/IMG_3963.jpg" alt="hair washing chairs" />
-        <StaticImage src="../../images/IMG_20201003_162325.jpg" alt="hair salon main entry" />
-        <StaticImage src="../../images/IMG_3955.jpg"  alt="hair salon reception view"  />
-        <StaticImage src="../../images/IMG_3936.jpg" alt="hair salon 3 mirrors"  />
-        <StaticImage src="../../images/IMG_3967.jpg" alt="hair salon shelves view"  />
-        <StaticImage src="../../images/IMG_20201003_162906.jpg" alt="hair salon main entry view" />
-        <StaticImage src="../../images/IMG_20201003_163024.jpg" alt="hair salon chairs and mirrors" /> 
+        <StaticImage placeholder="blurred" src="../../images/IMG_20201003_162157.jpg" alt="please include an alt" />
+        <StaticImage placeholder="blurred" src="../../images/IMG_20201003_162325.jpg" alt="hair salon main entry" />
+        <StaticImage placeholder="blurred" src="../../images/IMG_3963.JPG" alt="hair washing chairs" />
+        <StaticImage placeholder="blurred" src="../../images/IMG_3955.JPG"  alt="hair salon reception view"  />
+        <StaticImage placeholder="blurred" src="../../images/IMG_3936.JPG" alt="hair salon 3 mirrors"  />
+        <StaticImage placeholder="blurred" src="../../images/IMG_3967.JPG" alt="hair salon shelves view"  />
+        <StaticImage placeholder="blurred" src="../../images/IMG_20201003_162906.jpg" alt="hair salon main entry view" />
+        <StaticImage placeholder="blurred" src="../../images/IMG_20201003_163024.jpg" alt="hair salon chairs and mirrors" />
       </Slider>
     </div>
   )
